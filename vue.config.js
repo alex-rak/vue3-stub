@@ -4,14 +4,14 @@ module.exports = {
   devServer: {
     open: true,
     watchOptions: {
-      poll: true
-    }
+      poll: true,
+    },
     // proxy: ''
   },
 
   pluginOptions: {
     lintOnSave: true,
     lintStyleOnBuild: false,
-    stylelint: {}
-  }
-}
+    stylelint: {},
+  },
+};

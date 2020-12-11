@@ -3,7 +3,7 @@ module.exports = {
   env: {
     node: true,
   },
-  ignorePatterns: ["node_modules/**", "*.scss", "*.js", "*.d.ts"],
+  ignorePatterns: ["node_modules/**", "*.scss", "*.d.ts"],
   extends: [
     "plugin:vue/vue3-essential",
     "@vue/standard",
